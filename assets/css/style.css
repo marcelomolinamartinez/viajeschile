@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    font-family: Roboto;
+}
+
+/*Barra de navegacion*/
+.navbar-brand{
+    font-weight: 700;
+}
+
+/*Hero section*/
+#Hero-section{
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 100vh;    
+}
