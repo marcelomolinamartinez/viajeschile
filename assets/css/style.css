@@ -19,6 +19,8 @@ h4{
 }
 
 /*Quienes somos*/
+
+
 hr{
     color: deepskyblue;
 }
@@ -30,8 +32,13 @@ i{
 }
 
 /*Destacados*/
-.card-body{
+.card{
+    height: 57vh;
     background-color: deepskyblue;
+}
+
+.card-img-top{
+    height: 25vh;
 }
 
 .card-title{
@@ -44,4 +51,16 @@ i{
     color: white;
     font-weight: 300;
     font-size: 20px;
+}
+
+.btn{
+    background-color: deepskyblue;
+    text-align: left;
+}
+
+/*Footer*/
+#footer{
+    background-color: deepskyblue;
+    text-align: center;
+    color: white;
 }
