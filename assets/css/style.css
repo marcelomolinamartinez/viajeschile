@@ -3,15 +3,45 @@ body{
     font-family: Roboto;
 }
 
+h4{
+    font-size: 25px;
+}
+
 /*Barra de navegacion*/
 .navbar-brand{
+    font-size: 25px;
     font-weight: 700;
 }
 
-/*Hero section*/
-#Hero-section{
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    height: 100vh;    
+.nav-item{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*Quienes somos*/
+hr{
+    color: deepskyblue;
+}
+
+i{
+    color: white;
+    background-color: deepskyblue;
+    padding: 0 1rem;
+}
+
+/*Destacados*/
+.card-body{
+    background-color: deepskyblue;
+}
+
+.card-title{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.card-text{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
 }
