@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: auto !important;
+}
+
 body{
     background-color: black;
     font-family: Roboto;
@@ -18,23 +22,26 @@ h4{
     font-weight: 300;
 }
 
+.bg-transparent{
+    transition: all 1s ease;
+}
+
 /*Quienes somos*/
 
-
 hr{
-    color: deepskyblue;
+    color: dodgerblue;
 }
 
 i{
     color: white;
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     padding: 0 1rem;
 }
 
 /*Destacados*/
 .card{
-    height: 57vh;
-    background-color: deepskyblue;
+    height: 56vh;
+    background-color: dodgerblue;
 }
 
 .card-img-top{
@@ -54,13 +61,17 @@ i{
 }
 
 .btn{
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     text-align: left;
+}
+
+.modal-title{
+    background-color: dodgerblue;
 }
 
 /*Footer*/
 #footer{
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     text-align: center;
     color: white;
 }
